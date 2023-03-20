@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* #BR-MT:hover{
+    fill: tomato;
+    cursor: pointer;
+} */
+
+.none {
+    display: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20%;
+}
+
+path {
+    fill: #ECCEA7;
+    stroke: #FFFF;
+    stroke-width: 1.5px;
+    cursor: pointer;
+    transition: ease-in-out .1s;
+}
+
+path:hover {
+    fill: #fa9e27;
+}
+
+.dados-container {
+    background-color: #F5E7D3;
+    width: 375px;
+    height: 417px;
+    overflow-y: auto;
+    border: 1px solid black;
+}
+
+.siglaContainer {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #FA9E27;
+    border: 4px solid #FFFF;
+    display: grid;
+    place-content: center;
+}
+
+.dadosEstado {
+    margin: 20px;
+    display: flex;
+}
+
+.siglaEstado {
+    color: #FFFF;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.caracteristicas {
+    padding: 20px;
+}
+
+.nomeEstado {
+    font-weight: bold;
+    color: #FA9E27;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.caracteristicas p {
+    font-weight: bold;
+}
+
+.caracteristicas span {
+    font-weight: normal;
+}
+
+.cidadesContainer {
+    margin: 20px;
+}
+
+.cidadesContainer ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 200px;
+    font-size: 15px;
+}
